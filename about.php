@@ -1,6 +1,6 @@
 require_once 'db_config.php';
 <?php
-// Start the session (if needed for consistency with other pages)
+// Start the session 
 session_start();
 ?>
 <!DOCTYPE html>
@@ -127,4 +127,5 @@ session_start();
     <script src="js/slideshow.js"></script>
 
 </body>
+
 </html>
