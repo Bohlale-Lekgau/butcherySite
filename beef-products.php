@@ -2,7 +2,7 @@ require_once 'db_config.php';
 <?php
 session_start();
 
-// Initialize the cart if it doesn't exist
+// Initialize the cart
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = array();
 }
@@ -145,11 +145,12 @@ $beef_products = array(
                     alert('Your cart is empty!');
                 } else {
                     alert('Proceeding to checkout...');
-                    // Here you would typically redirect to a checkout page
+                    // redirect to a checkout page
                     // window.location.href = 'checkout.php';
                 }
             });
         });
     </script>
 </body>
+
 </html>
