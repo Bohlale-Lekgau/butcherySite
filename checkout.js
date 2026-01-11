@@ -24,11 +24,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle form submission
     checkoutForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        // Here you would typically send the order data to the server
-        // For this example, we'll just show an alert
+        // send the order data to the server
+        // we'll just show an alert
         alert('Thank you for your order! It has been processed successfully.');
         // Clear the cart and redirect to the home page
         localStorage.removeItem('cart');
         window.location.href = 'index.html';
     });
 });
+
