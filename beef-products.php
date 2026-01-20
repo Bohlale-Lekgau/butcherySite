@@ -19,7 +19,7 @@ function addToCart($product, $price) {
     }
 }
 
-// Handle add to cart action
+// Handles add to cart action
 if (isset($_POST['add_to_cart'])) {
     $product = $_POST['product'];
     $price = $_POST['price'];
@@ -154,3 +154,4 @@ $beef_products = array(
 </body>
 
 </html>
+
